@@ -11,7 +11,7 @@ public:
             {
                 zeroCount++;
             }
-            if(zeroCount>k)
+            while(zeroCount>k)
             {
                 if(nums[left]==0){
                 zeroCount--;
